@@ -1,0 +1,21 @@
+{
+  "name": "genpark-personal-agent-metabolic-flexibility-respiratory-quotient-rq-skill",
+  "version": "1.0.0",
+  "description": "Indirect calorimetry Respiratory Quotient (RQ / RER) fasting substrate oxidation and insulin resistance auditor.",
+  "category": "personal_agent",
+  "author": "GenPark AI",
+  "website": "https://www.genpark.ai",
+  "linkedin": "https://www.linkedin.com/company/92955550",
+  "main": "skills.py",
+  "tools": [
+    {
+      "name": "audit_metabolic_flexibility_rq",
+      "description": "Indirect calorimetry Respiratory Quotient (RQ / RER) fasting substrate oxidation and insulin resistance auditor.",
+      "sample_input": {
+        "fasting_rq": 0.74,
+        "postprandial_rq": 0.92,
+        "resting_energy_expenditure_kcal": 1750
+      }
+    }
+  ]
+}
